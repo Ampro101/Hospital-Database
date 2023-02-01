@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+           href="style.css">
+</head>
+<body>
+
+    <h1>Patient Demographics</h1>
+
+    <form action="process-form.php" method="post">
+       
+        <label for="name">First Name</label>
+        <input type="text" id="firstname" name="first name">
+
+        <label for="name">Middle Initial </label>
+        <input type="text" id="m.i" name="middle initial ">
+
+        <label for="name">Last Name </label>
+        <input type="text" id="lastname" name="last name ">
+
+        <label for="DOB">Date of Birth</label>
+        <input type="date" id="DOB" name="DOB">
+
+        <label for="ID">Tin Number </label>
+        <input type="text" id="tinnumber" name="tin number ">
+
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+            <option value = " " selected disabled = "disabled">Select an option</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+        </select>
+
+        <label for="address">Address</label>
+        <input type="text" id="address" name="address ">
+
+        <label for="phone">Phone Number</label>
+        <input type="number" id="phonenumber" name="phone number ">
+
+        <label for="email">Email Address</label>
+        <input type="text" id="email" name="email address ">
+
+    <h1>General Information</h1>  
+
+    <label for="occupation">Occupation</label>
+    <input type="text" id="job" name="job">
+
+        <label for="ethnicity">Ethnicity</label>
+        <select id="ethnicity" name="ethnicity">
+             <option value = " " selected disabled = "disabled">Select an option</option>
+             <option value="1">Black or African American</option>
+             <option value="2">American Indian or Alaska Native</option>
+             <option value="3">White</option>
+             <option value="4">Asian</option>
+             <option value="5">Pacific Islander</option>
+             <option value="6">Arabian</option>
+             <option value="7">Two or more</option>
+        </select>
+
+        <label for="en fluency">How well can you speak and understand english?</label>
+        <fieldset>
+            <label>
+                <input type="radio" name="type" value="1" checked>
+                Very well
+            </label>
+
+            <label>
+                <input type="radio" name="type" value="2">
+                well
+            </label>
+
+            <label>
+                <input type="radio" name="type" value="3">
+                Not well
+            </label>
+
+            <label>
+                <input type="radio" name="type" value="4">
+               Not at all
+            </label>
+
+
+
+        </fieldset>
+
+        <label style="margin: 20px;" for="preferred lang">What is your preferred spoken language for health care instructions? </label>
+        <input type="text" id="prefferredlang" name="preferred lang ">
+
+        <label for="marital status">Marital Status</label>
+        <select id="mar.sta" name="marital status">
+             <option value = " " selected disabled = "disabled">Select an option</option>
+             <option value="1">Single</option>
+             <option value="2">Married</option>
+             <option value="3">Widowed</option>
+             <option value="4">divorced</option>
+             <option value="5">Seperated</option>
+        
+        </select>
+
+        <label for="visual impairment">Are you visually Impaired? </label>
+        <select id="impairment" name="visual impairment">
+             <option value = " " selected disabled = "disabled">Select an option</option>
+             <option value="1">Yes</option>
+             <option value="2">No</option>
+            
+        </select>
+
+        <label for="accomodations">Please list any visual or hearing need.</label>
+        <input type="text" id="accomodations" name="accomodations ">
+
+
+
+<h1>Emergency Contact</h1>
+
+<h3>Contact #1</h3>
+
+       <label for="EC.fullname">Full Name </label>
+       <input type="text" id="EC.fullname" name="EC.full name ">  
+
+       <label for="EC.Address">Address </label>
+       <input type="text" id="EC.Address" name="EC.Address ">
+
+       <label for="EC. Phone ">Phone Number </label>
+       <input type="text" id="EC.phonenumber" name="EC.phonenumber ">
+
+       <label for="relation">Relationship to Patient </label>
+       <input type="text" id="relation" name="relation ">
+
+<h3>Contact #2</h3>
+       <label for="EC.fullname">Full Name </label>
+       <input type="text" id="EC.fullname" name="EC.full name ">  
+
+       <label for="EC.Address">Address </label>
+       <input type="text" id="EC.Address" name="EC.Address ">
+
+       <label for="EC. Phone ">Phone Number </label>
+       <input type="text" id="EC.phonenumber" name="EC.phonenumber ">
+
+       <label for="relation">Relationship to Patient </label>
+       <input type="text" id="relation" name="relation ">
+<!-- Moving on to patient visit or reason for visit form.-->
+ 
+        <label>   I agree to the terms and conditions
+            <input type="checkbox" name="terms">
+        </label>
+
+        <br>
+
+        <button>Submit</button>
+
+    </form>
+
+</body>
+</html>
