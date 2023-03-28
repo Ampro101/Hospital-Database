@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
     <title>Contact</title>
@@ -20,6 +20,7 @@
 
         <label for="name">Last Name </label>
         <input type="text" id="lastname" name="last_name ">
+
 
         <label for="DOB">Date of Birth</label>
         <input type="date" id="DOB" name="DOB">
@@ -141,6 +142,56 @@
 
        <label for="relation">Relationship to Patient </label>
        <input type="text" id="relation" name="relation ">
+
+      <form>
+  <h2>Medical Information</h2>
+  <label for="medical_history">Medical History:</label>
+  <textarea id="medical_history" name="medical_history" rows="4" cols="50"></textarea>
+  <br>
+  
+  <label for="family_history">Family Medical History:</label><br>
+  <input type="checkbox" id="mother" name="mother" value="Mother">
+  <label for="mother">Mother</label>
+  <input type="checkbox" id="father" name="father" value="Father">
+  <label for="father">Father</label>
+  <input type="checkbox" id="brother" name="brother" value="Brother">
+  <label for="brother">Brother</label>
+  <input type="checkbox" id="sister" name="sister" value="Sister">
+  <label for="sister">Sister</label>
+  <input type="checkbox" id="grandparent" name="grandparent" value="Grandparent">
+  <label for="grandparent">Grandparent</label>
+  <br>
+  <label for="other_family_history">Other:</label>
+  <input type="text" id="other_family_history" name="other_family_history">
+  <br><br>
+  
+  <label for="allergies">Allergies:</label><br>
+  <input type="checkbox" id="peanuts" name="peanuts" value="Peanuts">
+  <label for="peanuts">Peanuts</label>
+  <input type="checkbox" id="shellfish" name="shellfish" value="Shellfish">
+  <label for="shellfish">Shellfish</label>
+  <input type="checkbox" id="dairy" name="dairy" value="Dairy">
+  <label for="dairy">Dairy</label>
+  <input type="checkbox" id="pollen" name="pollen" value="Pollen">
+  <label for="pollen">Pollen</label>
+  <br>
+  <label for="other_allergies">Other:</label>
+  <input type="text" id="other_allergies" name="other_allergies">
+  <br><br>
+  
+  <label for="assigned_doctor">Assigned Doctor:</label>
+  <input type="text" id="assigned_doctor" name="assigned_doctor">
+  <br>
+  
+  <label for="assigned_nurse">Assigned Nurse:</label>
+  <input type="text" id="assigned_nurse" name="assigned_nurse">
+  <br><br>
+  
+  <input type="submit" value="Submit">
+</form>
+
+
+
 <!-- Moving on to patient visit or reason for visit form.-->
  
         <label>   I agree to the terms and conditions
